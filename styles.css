@@ -1,0 +1,40 @@
+
+body {
+    font-family: Arial, sans-serif; 
+  .navbar {
+    background-color: #343a40; 
+  }
+  .navbar-brand {
+    font-size: 1.5rem;
+  }
+  .navbar-nav .nav-item .nav-link {
+    color: #fff; 
+  }
+  .navbar-nav .nav-item .nav-link:hover {
+    color: #ccc; 
+  }
+  .container {
+    max-width: 960px; 
+    margin: 0 auto; 
+  }
+  section {
+    margin-bottom: 20px;
+  }
+  #bio {
+    background-color: #f8f9fa; 
+    padding: 20px;
+  }
+  #skills ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  #projects ul {
+    list-style-type: none; 
+    padding-left: 0;
+  }
+  @media (max-width: 768px) {
+    .navbar-expand-lg .navbar-nav .nav-link {
+      font-size: 0.9rem; 
+    }
+  }
+}
